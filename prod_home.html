@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Arômata</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+    <style media="screen">
+      a:hover{
+        opacity: 0.8;
+      }
+    </style>
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html"> <img src="images/arômata.png" width="150" alt=""> </a></h1>
+				<nav id="nav">
+					<ul class="wrapper-menu">
+						<li><a href="index_logado.php">Home</a></li>
+						<li><a href="generic.php">Quem Somos</a></li>
+						<li><a href="prod_home.html" class="button special" >Produtos</a></li>
+					</ul>
+				</nav>
+				<a href="usuario.php"class="icon fa-user" style=" font-size: 2.2em;position: absolute; right: 2.3em; top: -0.1em;   "><span class="label">User</span></a>
+        <a href="logout.php" class="icon fa-share-square-o" style=" font-size:2em; position: absolute; right: 1em; top:0em;"><span class="label">Logout</span></a>
+			</header>
+
+			<section id="one" class="wrapper style1 special" style=" background-color: #fff; border: none ">
+				<div class="container">
+					<header class="major">
+						<h2 class="purple" style=" margin-top: -1em; margin-bottom:-2em;">Escolha sua seção</h2>
+					</header>
+					<div class="row 150%">
+						<div class="4u 12u$(medium)">
+              <a href="prods_fem.php"><section class="box" style=" height: 20em; margin-top: 3em;background-image: url(images/f.jpg); background-size: cover; ">
+								<h2 style=" color: #862a6f; margin-top: 10em;  ">Produtos para o ambiente</h2>
+							</section></a>
+						</div>
+						<div class="4u 12u$(medium)" >
+							<a href="prods.php"><section class="box" style="height: 20em; margin-top: 3em;background-image: url(images/homem.jpg); background-size: cover; ">
+								<h2 style=" color: #4d9dae; margin-top: 10em; " >Produtos para o corpo</h2>
+							</section></a>
+						</div>
+						<div class="4u$ 12u$(medium)">
+              <a href="prod_kit.php"><section class="box" style="height: 20em; margin-top: 3em;background-image: url(images/kits.jpg); background-size: cover; ">
+								<h2 style=" color: orange; margin-top: 10em; ">Kits Promocionais</h2>
+							</section></a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			</section>
+			<section id="three" class="wrapper style3 special">
+				<div class="container">
+					<header class="major">
+						<h2>Dúvidas ou Sugestões?</h2>
+						<p>Deixe sua mensagem!</p>
+					</header>
+				</div>
+				<div class="container 50%">
+					<form action="mensagem.php" method="post">
+						<div class="row uniform">
+							<div class="6u 12u$(small)">
+								<input name="name" id="name" value="" placeholder="Nome" type="text">
+							</div>
+							<div class="6u$ 12u$(small)">
+								<input name="email" id="email" value="" placeholder="Email" type="email">
+							</div>
+							<div class="12u$">
+								<textarea name="message" id="message" placeholder="Mensagem" rows="6"></textarea>
+							</div>
+							<div class="12u$">
+								<ul class="actions">
+									<li><input value="Enviar Mensagem" class="special big" type="submit"></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="8u 12u$(medium)">
+							<ul class="copyright">
+								<li>COPYYRIGHT &copy; ARÔMATA</li>
+								<li>SAC - 0800 344 377 984</a></li>
+								<li>AROMA HOUSE</li>
+							</ul>
+						</div>
+						<div class="4u$ 12u$(medium)">
+							<ul class="icons">
+								<li>
+									<a class="icon rounded fa-facebook"><span class="label">Facebook</span></a>
+								</li>
+								<li>
+									<a class="icon rounded fa-twitter"><span class="label">Twitter</span></a>
+								</li>
+								<li>
+									<a class="icon rounded fa-google-plus"><span class="label">Google+</span></a>
+								</li>
+								<li>
+									<a class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+	</body>
+</html>
