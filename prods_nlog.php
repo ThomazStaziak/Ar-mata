@@ -17,7 +17,7 @@
       <link rel="stylesheet" href="css/style-xlarge.css" />
     </noscript>
     <?php
-    $link=mysqli_connect('localhost', 'root', '', 'tcc');
+    $link=mysqli_connect('127.0.0.1:8889', 'root', 'root', 'tcc');
     ?>
   </head>
   <body>

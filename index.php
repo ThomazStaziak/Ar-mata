@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <?php
-    $conexao = mysqli_connect("localhost", "root", "");
+// $conexao = new PDO("mysql:host=127.0.0.1;port=8889;dbname=tcc", "root", "root");
+    $conexao = mysqli_connect("127.0.0.1:8889", "root", "root");
     mysqli_select_db($conexao, "tcc");
 ?>
 	<html lang="en">
